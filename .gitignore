@@ -1,0 +1,13 @@
+# Ignore everything in raw except 'main' folder
+data/raw/*
+!data/raw/main/
+
+# Ignore temporary files
+*.pyc
+__pycache__/
+
+# Ignore Excel temporary files
+~$*.xlsx
+
+# VS Code settings
+.vscode/
